@@ -41,8 +41,7 @@ $ yarn run start
 # watch mode
 $ yarn run start:dev
 
-# production mode
-$ yarn run start:prod
+
 ```
 
 
@@ -56,11 +55,28 @@ Retorna todos os carros cadastrados.<br>
 /cars
 Retorna o carro de acordo com o Id.<br>
 
-**POST** 
+**POST**  
 /cars<br>
 Corpo da requisição<br>
+ &nbsp;&nbsp;{  
+   &nbsp;&nbsp;&nbsp;&nbsp;"brand": "(marca do carro)",  
+   &nbsp;&nbsp;&nbsp;&nbsp;"model": "(modelo do carro)",  
+   &nbsp;&nbsp;&nbsp;&nbsp;"year": (ano do carro)  
+  &nbsp;&nbsp;}<br>
 
+**PATH**  
+/cars/id  
+Atualiza as informações do carro<br> 
+Corpo da requisição<br> 
+ &nbsp;&nbsp;{  
+   &nbsp;&nbsp;&nbsp;&nbsp;"brand": "( atualize marca do carro)",  
+   &nbsp;&nbsp;&nbsp;&nbsp;"model": "(atualize modelo do carro)",  
+   &nbsp;&nbsp;&nbsp;&nbsp;"year": (atualize ano do carro)  
+  &nbsp;&nbsp;}<br>
 
+**DELETE**  
+/cars/id <br>
+deleta o carro 
 
 
 
