@@ -50,19 +50,20 @@ $ yarn run start:dev
 **GET** <br>
 /cars
 Retorna todos os carros cadastrados.<br>
-
+<hr>
 **GET By ID** <br>
 /cars
 Retorna o carro de acordo com o Id.<br>
-
+<hr>
 **POST**  
 /cars<br>
-Corpo da requisição<br>
- &nbsp;&nbsp;{  
+Corpo da requisição<br> 
+ &nbsp;&nbsp;{    
    &nbsp;&nbsp;&nbsp;&nbsp;"brand": "(marca do carro)",  
    &nbsp;&nbsp;&nbsp;&nbsp;"model": "(modelo do carro)",  
    &nbsp;&nbsp;&nbsp;&nbsp;"year": (ano do carro)  
   &nbsp;&nbsp;}<br>
+<hr>
 
 **PATH**  
 /cars/id  
@@ -72,7 +73,14 @@ Corpo da requisição<br>
    &nbsp;&nbsp;&nbsp;&nbsp;"brand": "( atualize marca do carro)",  
    &nbsp;&nbsp;&nbsp;&nbsp;"model": "(atualize modelo do carro)",  
    &nbsp;&nbsp;&nbsp;&nbsp;"year": (atualize ano do carro)  
-  &nbsp;&nbsp;}<br>
+  &nbsp;&nbsp;}<br> 
+
+
+
+
+  
+  
+<hr>
 
 **DELETE**  
 /cars/id <br>
